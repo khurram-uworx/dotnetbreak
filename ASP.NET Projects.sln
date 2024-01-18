@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages", "RazorPages\RazorPages.csproj", "{43ABDD74-3C9B-428A-ADBB-D78979C20744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "1-aspnet-intro\RazorPages\RazorPages.csproj", "{43ABDD74-3C9B-428A-ADBB-D78979C20744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLoggingApp", "TimeLoggingApp\TimeLoggingApp.csproj", "{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLoggingApp", "1-aspnet-intro\TimeLoggingApp\TimeLoggingApp.csproj", "{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EC8A204-2B02-469A-800D-B9C378CC0B7A}"
+	ProjectSection(SolutionItems) = preProject
+		hello-servlet.java = hello-servlet.java
+		hello.jsp = hello.jsp
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorTimeLogging", "BlazorTimeLogging\BlazorTimeLogging.csproj", "{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
