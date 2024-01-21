@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "1-aspnet-intro\RazorPages\RazorPages.csproj", "{43ABDD74-3C9B-428A-ADBB-D78979C20744}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLoggingApp", "1-aspnet-intro\TimeLoggingApp\TimeLoggingApp.csproj", "{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EC8A204-2B02-469A-800D-B9C378CC0B7A}"
 	ProjectSection(SolutionItems) = preProject
 		hello-servlet.java = hello-servlet.java
@@ -15,24 +11,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorTimeLogging", "BlazorTimeLogging\BlazorTimeLogging.csproj", "{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "RazorPages\RazorPages.csproj", "{87CB9CF0-626E-4FD6-8D77-06A53DE0C104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLoggingApp", "TimeLoggingApp\TimeLoggingApp.csproj", "{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{43ABDD74-3C9B-428A-ADBB-D78979C20744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43ABDD74-3C9B-428A-ADBB-D78979C20744}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43ABDD74-3C9B-428A-ADBB-D78979C20744}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43ABDD74-3C9B-428A-ADBB-D78979C20744}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEE3CA4C-E4B1-49B1-ACBE-F612B71E1924}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E375E7-C63D-4CCA-ACC7-04C4F9743BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CB9CF0-626E-4FD6-8D77-06A53DE0C104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CB9CF0-626E-4FD6-8D77-06A53DE0C104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CB9CF0-626E-4FD6-8D77-06A53DE0C104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CB9CF0-626E-4FD6-8D77-06A53DE0C104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
