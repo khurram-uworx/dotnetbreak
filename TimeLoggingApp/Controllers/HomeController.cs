@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using System;
 using System.Diagnostics;
+using System.Linq;
 using TimeLoggingApp.Data;
 using TimeLoggingApp.Models;
 
@@ -42,7 +44,6 @@ namespace TimeLoggingApp.Controllers
             return this.Redirect("~/");
         }
 
-
         public IActionResult Data()
         {
             var q = from t in context.TeamMembers
@@ -51,6 +52,11 @@ namespace TimeLoggingApp.Controllers
             //var results = context.TeamMembers.Where(t => t.FirstName == "Khurram")
 
             return this.View(results);
+        }
+
+        public IActionResult DataTable()
+        {
+            return this.View();
         }
 
         public IActionResult Privacy()
