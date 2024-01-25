@@ -1,0 +1,21 @@
+﻿@model IEnumerable<TeamMember>
+
+<table id="collectionTable" class="table">
+    <thead>
+        <tr>
+            <th scope="col">Header 1</th>
+            <th scope="col">Header 2</th>
+            <th scope="col">Header 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(TeamMember entity in this.Model)
+        {
+            <tr>
+                <td>@entity.TeamMemberId</td>
+                <td>@entity.FirstName</td>
+                <td>@entity.LastName</td>
+            </tr>
+        }
+    </tbody>
+</table>
