@@ -1,0 +1,41 @@
+﻿@model IEnumerable<TeamMember>
+
+<link href="~/lib/datatables/css/jquery.datatables.min.css" rel="stylesheet" />
+<link href="~/lib/datatables/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<table id="collectionTable" class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+        </tr>
+    </thead>
+</table>
+
+@section Scripts
+{
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#collectionTable').dataTable({
+                processing: true,
+                serverSide: true,
+                filter: true,
+                ajax: {
+                    url: '/api/Values',
+                    type: 'POST',
+                    datatype: 'json'
+                },
+                columns: [
+                    { data: "teamMemberId", autoWidth: true },
+                    { data: "firstName", autoWidth: true },
+                    { data: "lastName", autoWidth: true },
+                    { data: "email", autoWidth: true }
+                ]
+            });
+        });
+    </script>
+}
