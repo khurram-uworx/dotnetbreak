@@ -58,12 +58,15 @@ public class Main {
         Main m = new Main();
         m.greet("Khurram");
 
+        Writeable writeable = Main::writeLine; // or lambda
+        writeable.WriteLine("Hello World");
+
         //Consumer & Supplier
-        Consumer<String> writeConsumer = Main::writeLine;
+        Consumer<String> writeConsumer = Main::writeLine;   // Action<T>
         writeConsumer.accept("Hello World");
 
-        Supplier<Integer> nextRandomNumber = () -> new Random().nextInt(100) + 1;
-        Consumer<String> writeConsumer2 = writeConsumer.andThen((s) -> System.out.println(s));
-        writeConsumer2.accept("Should be cool, Random Number: " + nextRandomNumber.get());
+        Supplier<Integer> nextRandomNumber = () -> new Random().nextInt(100) + 1;   // Func<T1, T2>
+        Consumer<String> writeConsumer2 = writeConsumer.andThen((s) -> System.out.println(s));  // Multicasting
+        writeConsumer2.accept("Should be cool, Random Number: " + nextRandomNumber.get());  // Wiring up
     }
 }
