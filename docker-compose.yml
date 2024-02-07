@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: uworx
+
+  timeloggingapp:
+    image: ${DOCKER_REGISTRY-}timeloggingapp
+    build:
+      context: .
+      dockerfile: TimeLoggingApp/Dockerfile

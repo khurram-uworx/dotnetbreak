@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "RazorPages\Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLoggingApp", "TimeLoggingApp\TimeLoggingApp.csproj", "{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D90F15A3-BE9F-49A1-BB36-B376C4563894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB6A8B8-4DC8-4BF5-9F5B-64BB8406D929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90F15A3-BE9F-49A1-BB36-B376C4563894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90F15A3-BE9F-49A1-BB36-B376C4563894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90F15A3-BE9F-49A1-BB36-B376C4563894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90F15A3-BE9F-49A1-BB36-B376C4563894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

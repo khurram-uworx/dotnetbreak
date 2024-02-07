@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
@@ -27,7 +28,7 @@ namespace TimeLoggingApp.Controllers
         [HttpPost]
         public IActionResult Generate()
         {
-            //this.context.Database.Migrate();
+            this.context.Database.Migrate();
 
             for (int i = 0; i < 100; i++)
             {
