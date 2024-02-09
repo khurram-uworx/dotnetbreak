@@ -12,7 +12,7 @@ namespace Framework
 
     internal class Program
     {
-        static void Main(string[] args)
+        static void sendMSMQMessage()
         {
             var message = new Message();
             message.Body = new Transaction
@@ -24,9 +24,11 @@ namespace Framework
 
             var queue = new MessageQueue(".\\Private$\\deposits");
             queue.Send(message);
+        }
 
+        static void Main(string[] args)
+        {
             Console.WriteLine("Finished");
-
             Console.ReadLine();
         }
     }

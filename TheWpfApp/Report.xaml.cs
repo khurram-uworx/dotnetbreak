@@ -12,10 +12,14 @@ namespace TheWpfApp
             InitializeComponent();
         }
 
-        public Report(object data) : this()
+        public Report(Person person) : this()
         {
             // Bind to expense report data.
-            this.DataContext = data;
+            this.DataContext = person;
+            person.PropertyChanged += delegate
+            {
+                this.DataGridExpenses.Items.Refresh();
+            };
         }
     }
 }
