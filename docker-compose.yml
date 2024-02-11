@@ -1,9 +1,16 @@
 version: '3.4'
 
+volumes:
+  pgdata:
+
 services:
   postgres:
     container_name: postgres
     image: postgres
+    volumes:
+    - pgdata:/var/lib/postgresql/data
+    # ports:
+    # - 5432:5432
     environment:
       POSTGRES_PASSWORD: uworx
 
