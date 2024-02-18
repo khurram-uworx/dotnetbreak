@@ -68,5 +68,15 @@ public class Main {
         Supplier<Integer> nextRandomNumber = () -> new Random().nextInt(100) + 1;   // Func<T1, T2>
         Consumer<String> writeConsumer2 = writeConsumer.andThen((s) -> System.out.println(s));  // Multicasting
         writeConsumer2.accept("Should be cool, Random Number: " + nextRandomNumber.get());  // Wiring up
+
+
+        //Function<T, R>
+        //Predicate<T>, UnaryOperator<T>, BinaryOperator<T>
+
+        // List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+        // Predicate<Integer> greaterThan5 = num -> num > 5; //functional interface
+
+        // List<Integer> results = m.filter(numbers, greaterThan5);
+        // results.forEach((n) -> System.out.println(n));
     }
 }

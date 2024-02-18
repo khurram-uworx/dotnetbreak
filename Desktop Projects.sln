@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWpfApp", "TheWpfApp\TheWpfApp.csproj", "{45ADFD0A-B508-476F-BB25-987BC410B094}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWpfApp", "DesktopProjects\TheWpfApp\TheWpfApp.csproj", "{45ADFD0A-B508-476F-BB25-987BC410B094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
