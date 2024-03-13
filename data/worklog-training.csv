@@ -1,0 +1,23 @@
+﻿Input,Ticket,Quantity
+"Yesterday, I spent 3 hours working on ticket AB-5678",AB-5678,3
+"Today, I completed 5 hours of work on ticket XY-9876",XY-9876,5
+"Last week, I dedicated 2 hours to ticket CD-3456",CD-3456,2
+"For project XYZ, I contributed 6 hours to ticket EF-2345",EF-2345,6
+"This month, I invested 4 hours into ticket GH-7890",GH-7890,4
+"During the sprint, I focused on ticket IJ-4567 for 7 hours",IJ-4567,7
+"At the end of the day, I managed to finish 3 hours of work on ticket KL-1234",KL-1234,3
+"Over the weekend, I handled 5 hours on ticket MN-6789",MN-6789,5
+I allocated 2 hours today for ticket OP-2345,OP-234,2
+I just wrapped up 6 hours on ticket QR-7890,QR-7890,6
+I finished 5 hours of work on ticket EF-1234 earlier today,EF-1234,5
+"Last month, I spent 3 hours on ticket GH-4567",GH-4567,3
+I dedicated 6 hours this week for ticket AB-2345,AB-2345,6
+I've scheduled 4 hours tomorrow for ticket CD-6789,CD-6789,4
+"Yesterday afternoon, I tackled 5 hours on ticket WX-3456",WX-3456,5
+"For the past few days, I've been working on ticket YZ-8901 for 2 hours each day",YZ-8901,2
+"During the meeting, I mentioned I spent 4 hours on ticket ST-5678",ST-5678,4
+"This quarter, I've already logged 3 hours on ticket UV-1234",UV-1234,3
+"During the training session, I worked on ticket IJ-8901 for 7 hours",IJ-8901,7
+I managed to squeeze in 2 hours for ticket KL-6789 before lunch,KL-6789,2
+I allocated 2 hours today for ticket OP-2345,OP-2345,2
+I just wrapped up 6 hours on ticket QR-7890,QR-7890,6
