@@ -1,8 +1,13 @@
 ﻿{
   "Scenario": "Classification",
   "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "KeepDiacritics": false,
+    "KeepPunctuations": false,
+    "AllowQuoting": true,
     "Type": "TabularFile",
-    "Version": 1,
     "FilePath": "E:\\trainings\\uworx-dotnetbreak\\data\\worklog-training.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
@@ -14,7 +19,7 @@
         "ColumnDataFormat": "String",
         "IsCategorical": false,
         "Type": "Column",
-        "Version": 4
+        "Version": 5
       },
       {
         "ColumnName": "Ticket",
@@ -22,7 +27,7 @@
         "ColumnDataFormat": "String",
         "IsCategorical": false,
         "Type": "Column",
-        "Version": 4
+        "Version": 5
       },
       {
         "ColumnName": "Quantity",
@@ -30,7 +35,7 @@
         "ColumnDataFormat": "String",
         "IsCategorical": false,
         "Type": "Column",
-        "Version": 4
+        "Version": 5
       }
     ]
   },
@@ -261,7 +266,7 @@
     "ModelFilePath": "E:\\trainings\\uworx-dotnetbreak\\ML\\WorkLogsModelTicket.mlnet"
   },
   "Type": "TrainingConfig",
-  "Version": 4,
+  "Version": 5,
   "TrainingOption": {
     "Version": 2,
     "Subsampling": false,
