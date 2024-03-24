@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SalesDB", "DatabaseProjects\SalesDB\SalesDB.sqlproj", "{0C302D02-F355-4558-8027-F1B27CD9F1F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesDBTests", "SalesDBTests\SalesDBTests.csproj", "{7F296FCC-01AF-408E-9E92-D748F6085488}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesDBTests", "DatabaseProjects\SalesDBTests\SalesDBTests.csproj", "{7F296FCC-01AF-408E-9E92-D748F6085488}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
